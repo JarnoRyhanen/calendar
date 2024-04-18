@@ -1,40 +1,9 @@
 
     // Define your calendar data here
-    
-    let calendarData = [     
-      {
-            "date": "01-04-2024",
-            "opened": false,
-            "image_closed": "doorclosed.jpg",
-            "image_opened": "door.jpg",
-            "link": "http://example.com/1",
-            "desc": "jotain",
-            "map": ""
-      },
-      {
-            "date": "01-04-2024",
-            "opened": false,
-            "image_closed": "",
-            "image_opened": "",
-            "link": "",
-            "desc": "",
-            "map": ""
-      },
-      {
-            "date": "01-04-2024",
-            "opened": false,
-            "image_closed": "",
-            "image_opened": "",
-            "link": "",
-            "desc": "",
-            "map": ""
-      }
-]
-
-
+  
     const today = new Date();
     const todayString = today.toISOString().split('T')[0];
-    console.log("jotain vaan"+calendarData);
+    console.log("jotain vaan" + calendarData);
     const calendarContainer = document.getElementById('calendar');
     
     calendarData.forEach(data => {
@@ -51,11 +20,11 @@
           data.opened = true;
           door.classList.remove('highlight');
           door.innerHTML = `<a href="${data.link}" target="_blank"><img src="${data.imageOpened}" alt="Door"></a>`;
-            para.innerHTML = data.description
+            para.innerHTML = data.desc;
         });
       } else if (data.opened) {
         door.innerHTML = `<a href="${data.link}" target="_blank"><img src="${data.imageOpened}" alt="Door"></a>`;
-        para.innerHTML = data.description;
+        para.innerHTML = data.desc;
       } else {
         door.innerHTML = `<img src="${data.imageClosed}" alt="Door">`;
       }
