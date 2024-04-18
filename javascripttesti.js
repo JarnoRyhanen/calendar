@@ -1,6 +1,37 @@
 
     // Define your calendar data here
-    const calendarData = require('./testi.json');
+    
+    let calendarData = [     
+      {
+            "date": "01-04-2024",
+            "opened": false,
+            "image_closed": "doorclosed.jpg",
+            "image_opened": "door.jpg",
+            "link": "http://example.com/1",
+            "desc": "jotain",
+            "map": ""
+      },
+      {
+            "date": "01-04-2024",
+            "opened": false,
+            "image_closed": "",
+            "image_opened": "",
+            "link": "",
+            "desc": "",
+            "map": ""
+      },
+      {
+            "date": "01-04-2024",
+            "opened": false,
+            "image_closed": "",
+            "image_opened": "",
+            "link": "",
+            "desc": "",
+            "map": ""
+      }
+]
+
+
     const today = new Date();
     const todayString = today.toISOString().split('T')[0];
     console.log("jotain vaan"+calendarData);
