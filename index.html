@@ -11,8 +11,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
-
-            <style>
+        <style>
             .calendar {
               display: grid;
               grid-template-columns: repeat(5, 1fr);
@@ -20,8 +19,8 @@
             }
             .door {
               position: relative;
-              width: 100px;
-              height: 100px;
+              width: 200px;
+              height: 200px;
               background-color: #e0e0e0;
               border: 2px solid #aaa;
               border-radius: 5px;
@@ -40,53 +39,25 @@
               border-color: #FFD700; /* Highlight color */
               animation: highlight 1s infinite alternate; /* Highlight animation */
             }
+            .teksti{
+                position: flex;
+                align-items: last baseline;
+                gap: 2px;
+            }
             @keyframes highlight {
               from { border-color: #FFD700; }
               to { border-color: #aaa; }
             }
           </style>
-        
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
         <h1>Summer Calendar 2024</h1>
-        <div class="calendar" id="calendar"></div>
-        <script>
-            // Define your calendar data here
-            const calendarData = [
-              { date: '2024-04-01', opened: false, imageClosed: 'door.jpg', imageOpened: 'opendoor.jpg', link: 'http://example.com/1' },
-              { date: '2024-06-02', opened: false, imageClosed: 'door.jpg', imageOpened: 'opendoor.jpg', link: 'http://example.com/2' },
-              { date: '2024-06-03', opened: false, imageClosed: 'closed_door.jpg', imageOpened: 'opened_door.jpg', link: 'http://example.com/3' },
-              // Add more entries as needed
-            ];
-          
-            const today = new Date();
-            const todayString = today.toISOString().split('T')[0];
-          
-            const calendarContainer = document.getElementById('calendar');
-          
-            calendarData.forEach(data => {
-              const door = document.createElement('div');
-              door.classList.add('door');
-              if (data.date <= todayString && !data.opened) {
-                door.classList.add('highlight');
-                door.innerHTML = `<img src="${data.imageClosed}" alt="Door">`;
-                door.addEventListener('click', () => {
-                  data.opened = true;
-                  door.classList.remove('highlight');
-                  door.innerHTML = `<a href="${data.link}" target="_blank"><img src="${data.imageOpened}" alt="Door"></a>`;
-                });
-              } else if (data.opened) {
-                door.innerHTML = `<a href="${data.link}" target="_blank"><img src="${data.imageOpened}" alt="Door"></a>`;
-              } else {
-                door.innerHTML = `<img src="${data.imageClosed}" alt="Door">`;
-              }
-              calendarContainer.appendChild(door);
-            });
-          </script>
-        <script src="" async defer></script>
+<div class="calendar" id="calendar"></div>
+
+
+    <script src="javascripttesti.js" async defer></script>
     </body>
 </html>
