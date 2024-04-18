@@ -17,6 +17,41 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
+        <div class="calendar" id="calendar"></div>
+
+        <script>
+          // Define calendar data here
+          const calendarData = [
+            { date: '2024-04-01', opened: false, imageClosed: 'door.jpg', imageOpened: 'opendoor.jpg', link: 'http://example.com/1', description: 'jotain pientä'},
+            { date: '2024-04-02', opened: false, imageClosed: 'door.jpg', imageOpened: 'opendoor.jpg', link: 'http://example.com/2' },
+            { date: '2024-06-03', opened: false, imageClosed: 'closed_door.jpg', imageOpened: 'opened_door.jpg', link: 'http://example.com/3' },
+            // Add more entries as needed
+          ];
+        
+          const today = new Date();
+          const todayString = today.toISOString().split('T')[0];
+        
+          const calendarContainer = document.getElementById('calendar');
+        
+          calendarData.forEach(data => {
+            const door = document.createElement('div');
+            door.classList.add('door');
+            if (data.date <= todayString && !data.opened) {
+              door.classList.add('highlight');
+              door.innerHTML = `<img src="${data.imageClosed}" alt="Door">`;
+              door.addEventListener('click', () => {
+                data.opened = true;
+                door.classList.remove('highlight');
+                door.innerHTML = `<a href="${data.link}" target="_blank"><img src="${data.imageOpened}" alt="Door"></a>`;
+              });
+            } else if (data.opened) {
+              door.innerHTML = `<a href="${data.link}" target="_blank"><img src="${data.imageOpened}" alt="Door"></a>`;
+            } else {
+              door.innerHTML = `<img src="${data.imageClosed}" alt="Door">`;
+            }
+            calendarContainer.appendChild(door);
+          });
+        </script>
         <script src="" async defer></script>
     </body>
 </html>
