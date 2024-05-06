@@ -75,7 +75,7 @@ h1 {
 .text {
   font-weight: bold;
   position: absolute;
-  top: 95%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

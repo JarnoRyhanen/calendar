@@ -6,7 +6,6 @@ calendarData.forEach((data, index) => {
     const holder = document.createElement('div');
     const door = document.createElement('div');
     door.classList.add('door');
-
     const para = document.createElement('div');
     para.classList.add('text');
   
