@@ -96,25 +96,26 @@ Modal image css
     text-align: center;
     color: #ccc;
     padding: 10px 0;
-    height: 150px;
 }
 
 /* Modal Content (image) */
 .modal-content {
     margin: auto;
     display: block;
-    width: 100%;
+    width: 80vh;
+    height: 50vh;
+    padding: 16px;
 }
 
 #location,
 #map {
-  margin: auto;
-  display: block;
-
   border-radius: 10px;
   border: none;
   width: 70vw;
-  height: 50vh;
+  height: 70vh;
+  bottom: 0;
+  margin: auto;
+  padding-bottom: 200px;
 }
 
 /* Add Animation */
