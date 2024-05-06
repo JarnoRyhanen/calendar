@@ -31,7 +31,13 @@ body {
     max-height: 100%;
   }
 
-  .door.highlight {
+  .highlight1 {
+    border-color: #00ff1a;
+    /* Highlight color */
+    animation: highlight 1s infinite alternate;
+    /* Highlight animation */
+  }
+  .highlight2{
     border-color: #ff1500;
     /* Highlight color */
     animation: highlight 1s infinite alternate;
@@ -47,6 +53,15 @@ body {
 
   @keyframes highlight {
     from {
+      border-color: #00ff1a;
+    }
+
+    to {
+      border-color: #aaa;
+    }
+  }
+  @keyframes highlight2 {
+    from {
       border-color: #ff1500;
     }
 
@@ -54,7 +69,6 @@ body {
       border-color: #aaa;
     }
   }
-
 
 
 /*
