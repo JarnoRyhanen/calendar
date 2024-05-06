@@ -13,6 +13,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="">
   <style>
+    body {
+      background-color: hsla(120, 96%, 38%, 0.3);
+
+    }
+    h1{
+      font-family: 'Courier New';
+    }
     .calendar {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
@@ -24,7 +31,7 @@
       width: 200px;
       height: 200px;
       background-color: #e0e0e0;
-      border: 2px solid #aaa;
+      border: 3px solid #aaa;
       border-radius: 5px;
       display: flex;
       align-items: center;
@@ -40,7 +47,7 @@
     }
 
     .door.highlight {
-      border-color: #FFD700;
+      border-color: #ff1500;
       /* Highlight color */
       animation: highlight 1s infinite alternate;
       /* Highlight animation */
@@ -48,13 +55,14 @@
 
     .teksti {
       position: flex;
+      
       align-items: last baseline;
       gap: 2px;
     }
 
     @keyframes highlight {
       from {
-        border-color: #FFD700;
+        border-color: #ff1500;
       }
 
       to {
@@ -70,9 +78,9 @@
         <![endif]-->
   <h1>Summer Calendar 2024</h1>
   <div class="calendar" id="calendar"></div>
-
-  <script src="javascripttesti.js" type="text/javascript" async defer></script>
   <script type="text/javascript" src="testi.js"></script>
+  <script src="javascripttesti.js" type="text/javascript" async defer></script>
+  
 </body>
 
 </html>
