@@ -49,10 +49,10 @@ let calendarData = [
       }, {
             "date": "2023-07-01",
             "opened": false,
-            "img": "maailmakylassa.jpg",
-            "link": "",
-            "desc": "kaks",
-            "map": ``
+            "img": "./Kuvat/luomus.jpg",
+            "link": "https://www.helsinki.fi/fi/luomus/yleisokohteet/luonnontieteellinen-museo",
+            "desc": "Luonnontieteellisen museon ilmaispäivät ovat: 14.2.2024, 10.4.2024, 12.6.2024, 14.8.2024, 9.10.2024, 11.12.2024",
+            "map": `<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.126126673927!2d24.92868587704801!3d60.17141197503306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920a330b5db7e1%3A0x70a9fb2eae7279c!2sFinnish%20Museum%20of%20Natural%20History!5e0!3m2!1sen!2sfi!4v1714992379149!5m2!1sen!2sfi"></iframe>`
       }, {
             "date": "2023-07-08",
             "opened": false,
