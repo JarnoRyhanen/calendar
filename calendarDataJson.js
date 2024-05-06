@@ -82,12 +82,12 @@ let calendarData = [
             "desc": "kaks",
             "map": ``
       }, {
-            "date": "2024-08-05",
+            "date": "2023-08-05",
             "opened": false,
-            "img": "maailmakylassa.jpg",
-            "link": "",
-            "desc": "kaks",
-            "map": ``
+            "img": "./Kuvat/Uimastadion1.jpg",
+            "link": "https://www.hel.fi/fi/kulttuuri-ja-vapaa-aika/ulkoilu-puistot-ja-luontokohteet/uimarannat/maauimalat/uimastadion",
+            "desc": "Legendaarinen Uimastadion eli tuttavallisemmin Stadikka on Suomen vanhin maauimala. Maauimalasta löytyy iso allas, lasten allas, kahluuallas sekä hyppyallas hyppytorneineen. Vuosittaisia vetonauloja ovat erityisesti pellehyppykisat ja kuutamouinnit. ",
+            "map": `<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.5219162130693!2d24.92600369583213!3d60.188645177594815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920a2867cf14c7%3A0xbba80d4cd745fb74!2sHelsinki%20Swimming%20Stadium!5e0!3m2!1sen!2sfi!4v1714988902886!5m2!1sen!2sfi" </iframe>`
       }, {
             "date": "2023-08-12",
             "opened": false,
