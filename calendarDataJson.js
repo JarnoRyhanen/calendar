@@ -55,10 +55,10 @@ let calendarData = [
       }, {
             "date": "2023-07-08",
             "opened": false,
-            "img": "maailmakylassa.jpg",
-            "link": "",
-            "desc": "kaks",
-            "map": ``
+            "img": "./Kuvat/kiasma1.jpg",
+            "link": "https://kiasma.fi/",
+            "desc": "Kiasma on nykytaiteen museo keskellä Helsinkiä. Kiasma kerää ja tekee tunnetuksi oman aikamme taidetta.",
+            "map": `<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.552243900372!2d24.934289477168004!3d60.171591075033106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920a332ab06d07%3A0xa6c0f7efd55d1d15!2sMuseum%20of%20Contemporary%20Art%20Kiasma!5e0!3m2!1sen!2sfi!4v1714991973084!5m2!1sen!2sfi" </iframe>`
       }, {
             "date": "2023-07-15",
             "opened": false,
