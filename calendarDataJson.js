@@ -89,12 +89,12 @@ let calendarData = [
             "desc": "kaks",
             "map": ``
       }, {
-            "date": "2024-08-12",
+            "date": "2023-08-12",
             "opened": false,
-            "img": "maailmakylassa.jpg",
-            "link": "",
-            "desc": "kaks",
-            "map": ``
+            "img": "Korkeasaari1.jpg",
+            "link": "https://www.korkeasaari.fi/",
+            "desc": "Korkeasaaressa pääset tutustumaan yli 150 eläinlajiin ja satoihin kasvilajeihin ympäri maailmaa. Vierailullasi tuet uhanalaisten eläinen suojelua.",
+            "map": `<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7937.431962416159!2d24.976064432595393!3d60.17480660055412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920be081e5f2a7%3A0x4f240bd6797a15a8!2sKorkeasaari!5e0!3m2!1sen!2sfi!4v1714988147691!5m2!1sen!2sfi" </iframe>`
       }
 
 
