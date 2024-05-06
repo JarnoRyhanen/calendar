@@ -1,11 +1,34 @@
 // Get the modal
+
+/*
+
+data: 
+
+    date: string;
+    opened: boolean;
+    image_closed: string;
+    image_opened: string;
+    link: string;
+    desc: string;
+    map: string;
+
+*/
+
+
 var modal = document.getElementById("myModal");
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
+function openModalPopup(calendarData) {
+    console.log("I AM CALLED");
+    console.log(calendarData.desc);
 
+    let description = calendarData.desc;
+    let date = calendarData.date;
+    let isOpen = calendarData.opened;
+    let link = calendarData.link;
+    let location = calendarData.map;
+    let imageOpened = calendarData.image_opened;
+    let imageClosed = calendarData.image_closed;
 
-function showImage( image) {
-    console.log(image.id);
 
      var img = document.getElementById(image.id);
 

@@ -15,7 +15,7 @@
           data.opened = true;
           door.classList.remove('highlight');
           door.innerHTML = `<img src="${data.image_opened}" alt="Door">`;
-          openPopupWindow(data);
+          openModalPopup(data);
         });
       } else if (data.opened) {
         door.innerHTML = `<img src="${data.image_opened}" alt="Door">`;
@@ -26,10 +26,12 @@
       calendarContainer.appendChild(door);
       
     });
+
+
     
     
     // popup. 
-    function openPopupWindow(data) {
+   /* function openPopupWindow(data) {
       const mapPopup = window.open('', '_blank', 'width=800,height=600');
       mapPopup.document.body.innerHTML = `
           <h1 style="font-family:'Courier New'">${data.desc}</h1>
@@ -38,3 +40,5 @@
           <a href="${data.link}">Sivuille</a>
       `;
   }
+
+  */
