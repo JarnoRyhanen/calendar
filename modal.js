@@ -1,44 +1,33 @@
 
-
-/*
-data: 
-
-    date: string;
-    opened: boolean;
-    image_closed: string;
-    image_opened: string;
-    link: string;
-    desc: string;
-    map: string;
-*/
-
 // get the modal
 
 var modal = document.getElementById("myModal");
 
 function openModalPopup(calendarData) {
-    console.log(modal);
-    console.log("I AM CALLED");
+
     
     let description = calendarData.desc;
-    let date = calendarData.date;
-    let isOpen = calendarData.opened;
-    let link = calendarData.link;
+    let image = calendarData.img;
+    let linkToEvent = calendarData.link;
     let location = calendarData.map;
-    let imageOpened = calendarData.image_opened;
-    let imageClosed = calendarData.image_closed;
     console.log(description); 
     console.log(location); 
+    console.log(linkToEvent); 
+
 
     
     let modalImg = document.getElementById("modalImage");
     let captionText = document.getElementById("caption");
     let locationMap = document.getElementById("location");
+    let link = document.getElementById("link");
 
      modal.style.display = "block";
-     modalImg.src = imageOpened;
+     
+     modalImg.src = image;
      captionText.innerHTML = description;
      locationMap.innerHTML = location;
+
+
 
 }
 

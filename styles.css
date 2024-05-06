@@ -86,17 +86,19 @@ Modal image css
 }
 
 /* Caption of Modal Image */
-#caption {
-  font-size: 32px;
+#caption,
+#link {
+  font-size: 28px;
     margin: auto;
     display: block;
     width: 80%;
-    max-width: 700px;
+    max-width: 90vw;
     text-align: center;
     color: #ccc;
     padding: 10px 0;
     height: 150px;
 }
+
 /* Modal Content (image) */
 .modal-content {
     margin: auto;
@@ -117,7 +119,8 @@ Modal image css
 
 /* Add Animation */
 .modal-content,
-#caption {
+#caption,
+#location {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
