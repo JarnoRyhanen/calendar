@@ -26,6 +26,3 @@ calendarData.forEach((data, index) => {
     holder.appendChild(para);
     calendarContainer.appendChild(holder);
 });
-
-
-
