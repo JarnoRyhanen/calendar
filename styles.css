@@ -1,3 +1,4 @@
+
 body {
     background-color: hsla(120, 96%, 38%, 0.3);
     
@@ -31,13 +32,13 @@ body {
     max-height: 100%;
   }
 
-  .highlight1 {
+  .door.greenhighlight {
     border-color: #00ff1a;
     /* Highlight color */
     animation: highlight 1s infinite alternate;
     /* Highlight animation */
   }
-  .highlight2{
+  .door.redhighlight{
     border-color: #ff1500;
     /* Highlight color */
     animation: highlight 1s infinite alternate;
@@ -52,23 +53,11 @@ body {
   }
 
   @keyframes highlight {
-    from {
-      border-color: #00ff1a;
-    }
-
     to {
       border-color: #aaa;
     }
   }
-  @keyframes highlight2 {
-    from {
-      border-color: #ff1500;
-    }
-
-    to {
-      border-color: #aaa;
-    }
-  }
+ 
 
 
 /*

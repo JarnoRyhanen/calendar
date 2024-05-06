@@ -41,7 +41,7 @@ let calendarData = [
             "desc": "Tuska Festivaali on pohjoismaiden suurimpia raskaanmusiikin tapahtumia, joka kokoaa yhteen raskaanmusiikin ystäviä kolmen päivän aikana.",
             "map": `<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d954.3539308739814!2d24.969606894836954!3d60.18665014847988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssuvilahti!5e0!3m2!1sfi!2sfi!4v1714990762108!5m2!1sfi!2sfi"></iframe>`
       }, {
-            "date": "2023-07-01",
+            "date": "2024-07-01",
             "img": "./Kuvat/luomus.jpg",
             "link": "https://www.helsinki.fi/fi/luomus/yleisokohteet/luonnontieteellinen-museo",
             "desc": "Luonnontieteellisen museon ilmaispäivät ovat: 14.2.2024, 10.4.2024, 12.6.2024, 14.8.2024, 9.10.2024, 11.12.2024",
