@@ -26,10 +26,11 @@ let calendarData = [
       {
             "date": "2023-06-10",
             "opened": false,
-            "img": "maailmakylassa.jpg",
-            "link": "",
-            "desc": "kaks",
-            "map": ``
+            "img": "./Kuvat/helsinkipaiva.jpg",
+            "link": "https://helsinkipaiva.fi/event/helsinki-paivan-puistojuhlat-lapinlahden-lahteella/",
+            "desc": "Helsinki-päivänä 12.6. Lapinlahden vanhassa sairaalapuutarhassa vietetään jälleen puistojuhlaa, johon kutsumme kaikki helsinkiläiset juhlistamaan upeaa kaupunkiamme. Myös paljon muita tapahtumia.",
+            "map": `<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.8258591396625!2d24.912278277047687!3d60.1670616750308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920b338fbd7905%3A0x79fa4e02d9a315a!2sFahlanderin%20puistokuja%202%2C%2000101%20Helsinki!5e0!3m2!1sen!2sfi!4v1714990440493!5m2!1sen!2sfi"></iframe>`
+
       }, {
             "date": "2023-06-17",
             "opened": false,
