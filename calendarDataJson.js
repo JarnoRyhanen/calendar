@@ -70,10 +70,10 @@ let calendarData = [
       }, {
             "date": "2023-07-22",
             "opened": false,
-            "img": "maailmakylassa.jpg",
-            "link": "",
-            "desc": "kaks",
-            "map": ``
+            "img": "./Kuvat/Vanhankaupunginkoskensuvanto1.jpg",
+            "link": "https://www.vapaa-ajankalastaja.fi/kalastuspaikka/vanhankaupunginkosken-suvanto/",
+            "desc": "Kalastusta Vanhankaupunginkosken suvannolla",
+            "map": `<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1981.944315328459!2d24.980555877170932!3d60.21475217505518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920922abf79421%3A0x9f9da07a94d86a68!2sVanhankaupunginkosken%20suvanto!5e0!3m2!1sen!2sfi!4v1714990069288!5m2!1sen!2sfi"</iframe>`
       }, {
             "date": "2023-07-29",
             "opened": false,
