@@ -1,12 +1,35 @@
 body {
-  background-color: hsla(120, 96%, 38%, 0.3);
+
+  background: rgb(174,205,238);
+  background: radial-gradient(circle, rgba(174,205,238,0.11369054457720584) 11%, rgba(148,187,233,0.48063732328869047) 97%);
 }
 
 h1 {
   font-family: 'Courier New';
 }
 
+
+#banner {
+  position: relative;
+  width: 100vw;
+  height: 60vh;
+}
+
+#bannerImage {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  max-height: 700px;
+  display: block;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 .calendar {
+  position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -61,8 +84,6 @@ h1 {
     border-color: #aaa;
   }
 }
-
-
 
 /*
 Modal image css
