@@ -11,65 +11,7 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="">
-  <style>
-    body {
-      background-color: hsla(120, 96%, 38%, 0.3);
-
-    }
-    h1{
-      font-family: 'Courier New';
-    }
-    .calendar {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 10px;
-    }
-
-    .door {
-      position: relative;
-      width: 200px;
-      height: 200px;
-      background-color: #e0e0e0;
-      border: 3px solid #aaa;
-      border-radius: 5px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 18px;
-      cursor: pointer;
-      overflow: hidden;
-    }
-
-    .door img {
-      max-width: 100%;
-      max-height: 100%;
-    }
-
-    .door.highlight {
-      border-color: #ff1500;
-      /* Highlight color */
-      animation: highlight 1s infinite alternate;
-      /* Highlight animation */
-    }
-
-    .teksti {
-      position: flex;
-      
-      align-items: last baseline;
-      gap: 2px;
-    }
-
-    @keyframes highlight {
-      from {
-        border-color: #ff1500;
-      }
-
-      to {
-        border-color: #aaa;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -80,7 +22,14 @@
   <div class="calendar" id="calendar"></div>
   <script type="text/javascript" src="testi.js"></script>
   <script src="javascripttesti.js" type="text/javascript" async defer></script>
-  
+
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+    <div id="caption"></div>
+  </div>
 </body>
 
 </html>
