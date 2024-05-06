@@ -5,7 +5,8 @@ let calendarData = [
             "img": "./Kuvat/maailmakylassa.jpg",
             "link": "https://maailmakylassa.fi",
             "desc": "Maailma kylässä -festivaali 25.–26.5.2024 la 11–21 su 11–19",
-            "map": `<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d129708.19179114768!2d24.57343458998777!3d59.47158519202321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46929499df5616bf%3A0x400b36d18fc6270!2sTallinn%2C%20Estonia!5e0!3m2!1sen!2sfi!4v1714974541499!5m2!1sen!2sfi"></iframe>`
+            "map": `
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15869.288185120637!2d24.93227877572917!3d60.18634283358466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692097c823f6a11%3A0x7c5f1298fef5c44!2sSuvilahti%2C%2000540%20Helsinki!5e0!3m2!1sen!2sfi!4v1714991554435!5m2!1sen!2sfi"></iframe>`
       },
       {
             "date": "2024-05-01",
@@ -34,10 +35,10 @@ let calendarData = [
       }, {
             "date": "2023-06-17",
             "opened": false,
-            "img": "maailmakylassa.jpg",
-            "link": "",
-            "desc": "kaks",
-            "map": ``
+            "img": "./Kuvat/Juhannusvalkeat.jpg",
+            "link": "https://www.juhannusvalkeat.fi/",
+            "desc": "TERVE­TULOA Juhannus­valkeille jälleen 21.6.2024!",
+            "map": `<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15873.754312534074!2d24.84738317910158!3d60.177102500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920a111718eddb%3A0xe485e638e2ad0e4e!2sSeurasaari!5e0!3m2!1sen!2sfi!4v1714991457765!5m2!1sen!2sfi"></iframe>`
       }, {
             "date": "2023-06-24",
             "opened": false,
