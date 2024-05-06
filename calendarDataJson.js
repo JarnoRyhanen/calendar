@@ -61,10 +61,10 @@ let calendarData = [
       }, {
             "date": "2023-07-15",
             "opened": false,
-            "img": "maailmakylassa.jpg",
-            "link": "",
-            "desc": "kaks",
-            "map": ``
+            "img": "./Kuvat/helsinkisaaristoristeily1.jpg",
+            "link": "https://www.myhelsinki.fi/fi/n%C3%A4e-ja-koe/aktiviteetit/risteilyj%C3%A4-helsingin-saaristossa",
+            "desc": "Merellinen Helsinki aukeaa parhaiten saaristoristeilyllä. Maisemien lisäksi voit samalla nauttia vaikka lounaan, brunssin tai illallisen. Kaikki saaristoristeilyalukset lähtevät Kauppatorilta ja liikennöivät vain kesäkaudella (touko-syyskuu).",
+            "map": `<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5613.71198673517!2d24.945038839685072!3d60.16836866669434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bcf117c4bb3%3A0xc5acf882c8111bd5!2sMarket%20Square!5e0!3m2!1sen!2sfi!4v1714990980112!5m2!1sen!2sfi" </iframe>`
       }, {
             "date": "2023-07-22",
             "opened": false,
