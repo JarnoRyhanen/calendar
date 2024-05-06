@@ -7,8 +7,8 @@ calendarData.forEach((data, index) => {
     const door = document.createElement('div');
     door.classList.add('door');
 
-    const para = document.createElement('p');
-    para.classList.add('teksti');
+    const para = document.createElement('div');
+    para.classList.add('text');
   
     if (data.date <= todayString) {
         door.classList.add('greenhighlight');
@@ -23,6 +23,9 @@ calendarData.forEach((data, index) => {
   
     para.innerHTML = `Viikko ${index + 1}`;
     holder.appendChild(door);
-    holder.appendChild(para);
+    door.appendChild(para);
     calendarContainer.appendChild(holder);
 });
+
+
+

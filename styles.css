@@ -49,11 +49,12 @@ h1 {
   /* Highlight animation */
 }
 
-.teksti {
-  position: flex;
-
-  align-items: last baseline;
-  gap: 2px;
+.text {
+  font-weight: bold;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @keyframes highlight {
