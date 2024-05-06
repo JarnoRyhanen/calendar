@@ -26,19 +26,3 @@
       calendarContainer.appendChild(door);
       
     });
-
-
-    
-    
-    // popup. 
-   /* function openPopupWindow(data) {
-      const mapPopup = window.open('', '_blank', 'width=800,height=600');
-      mapPopup.document.body.innerHTML = `
-          <h1 style="font-family:'Courier New'">${data.desc}</h1>
-          <img src="${data.image_closed}" alt="Door" width="600" height="auto">
-          ${data.map}
-          <a href="${data.link}">Sivuille</a>
-      `;
-  }
-
-  */

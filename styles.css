@@ -85,13 +85,6 @@ Modal image css
     /* Black w/ opacity */
 }
 
-/* Modal Content (image) */
-.modal-content {
-    margin: auto;
-    display: block;
-    width: 100%;
-}
-
 /* Caption of Modal Image */
 #caption {
   font-size: 32px;
@@ -104,16 +97,23 @@ Modal image css
     padding: 10px 0;
     height: 150px;
 }
-
-#location {
-  margin: auto;
-  display: block;
-  padding: auto;
-  border-radius: 30px;
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
 }
 
-/* width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-*/
+#location,
+#map {
+  margin: auto;
+  display: block;
+
+  border-radius: 10px;
+  border: none;
+  width: 70vw;
+  height: 50vh;
+}
 
 /* Add Animation */
 .modal-content,
