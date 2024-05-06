@@ -94,6 +94,7 @@ Modal image css
 
 /* Caption of Modal Image */
 #caption {
+  font-size: 32px;
     margin: auto;
     display: block;
     width: 80%;
@@ -103,6 +104,16 @@ Modal image css
     padding: 10px 0;
     height: 150px;
 }
+
+#location {
+  margin: auto;
+  display: block;
+  padding: auto;
+  border-radius: 30px;
+}
+
+/* width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+*/
 
 /* Add Animation */
 .modal-content,
