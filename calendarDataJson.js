@@ -2,10 +2,12 @@ let calendarData = [
       {
             "date": "2024-01-04",
             "opened": false,
-            "img": "maailmakylassa.jpg",
+
+            "img": "./Kuvat/maailmakylassa.jpg",
             "link": "https://maailmakylassa.fi",
             "desc": "Maailma kylässä -festivaali 25.–26.5.2024 la 11–21 su 11–19",
             "map": `<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d129708.19179114768!2d24.57343458998777!3d59.47158519202321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46929499df5616bf%3A0x400b36d18fc6270!2sTallinn%2C%20Estonia!5e0!3m2!1sen!2sfi!4v1714974541499!5m2!1sen!2sfi"></iframe>`
+
       },
       {
             "date": "2024-05-01",
@@ -95,7 +97,7 @@ let calendarData = [
             "desc": "kaks",
             "map": ``
       }
-      
-      
-      
+
+
+
 ]
