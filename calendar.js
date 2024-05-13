@@ -3,7 +3,6 @@ const todayString = today.toISOString().split('T')[0];
 const calendarContainer = document.getElementById('calendar');
 
 calendarData.forEach((data, index) => {
-    const holder = document.createElement('div');
     const door = document.createElement('div');
     door.classList.add('door');
     const para = document.createElement('div');
@@ -21,9 +20,9 @@ calendarData.forEach((data, index) => {
     }
   
     para.innerHTML = `Viikko ${index + 1}`;
-    holder.appendChild(door);
+    
     door.appendChild(para);
-    calendarContainer.appendChild(holder);
+    calendarContainer.appendChild(door);
 });
 
 
