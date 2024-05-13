@@ -16,6 +16,9 @@ h1 {
   height: 60vh;
   
 }
+footer{
+  text-align: center;
+}
 
 #bannerImage {
   max-width: 100%;
