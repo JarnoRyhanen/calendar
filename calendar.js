@@ -7,12 +7,13 @@ calendarData.forEach((data, index) => {
     door.classList.add('door');
     const para = document.createElement('div');
     para.classList.add('text');
-  
+    var doorSound = document.getElementById("doorSound");
     if (data.date <= todayString) {
         door.classList.add('greenhighlight');
         door.innerHTML = `<img src="./Kuvat/door.jpg" width="100%" alt="Door">`;
         door.addEventListener('click', () => {
             openModalPopup(data);
+            doorSound.play();
         });
     } else {
        door.classList.add('redhighlight');
