@@ -9,10 +9,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-  <div id="banner">
-    <img id="bannerImage" src="Kuvat/helsinki2.jpg" alt="Helsinki">
+  <div class="slideshow-container" id="slideshow-container">
+    <div class="mySlides fade">
+      <img id="bannerImage" src="Kuvat/slideshow_images/helsinki.jpg">
+    </div>
+
+    <div class="mySlides fade">
+      <img id="bannerImage" src="Kuvat/slideshow_images/helsinki2.jpg" alt="Helsinki">
+    </div>
+
+    <div class="mySlides fade">
+      <img id="bannerImage" src="Kuvat/slideshow_images/helsinki3.webp">
+    </div>
+
+    <div class="mySlides fade">
+      <img id="bannerImage" src="Kuvat/slideshow_images/helsinki4.jpg">
+    </div>
+  </div>
+
+  <br>
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
   </div>
 
   <h1>Summer Calendar 2024</h1>
@@ -33,5 +56,6 @@
 <script src="calendarDataJson.js" type="text/javascript"></script>
 <script src="calendar.js" type="text/javascript" async defer></script>
 <script src="modal.js" type="text/javascript"></script>
+<script src="slideshow.js" type="text/javascript"></script>
 
 </html>
