@@ -4,30 +4,29 @@ body {
   background: radial-gradient(circle, rgba(174, 205, 238, 0.11369054457720584) 11%, rgba(148, 187, 233, 0.48063732328869047) 97%);
 }
 
-.element {}
-
 h1 {
   font-family: 'Courier New';
+  text-align: center;
 }
 
 
 .slideshow-container {
   position: relative;
-  width: 100vw;
+  width: 99vw;
   height: 60vh;
+  
 }
 
 #bannerImage {
   max-width: 100%;
-  width: 100%;
+  width: 99%;
   height: auto;
   max-height: 700px;
   display: block;
   float: left;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   border-radius: 10px;
-  object-fit: cover;
+ 
 }
 
 
@@ -206,10 +205,27 @@ Modal image css
   .modal-content {
     width: 100%;
   }
-
   .door {
-    width: 30vw;
-    height: 45vh;
+    width: 27vw;
+    height: auto;
+  }
+  .slideshow-container {
+    
+    width: 95vw;
+    height: 60vh;
+    
+  }
+}
+@media only screen and (min-width: 700px) {
+  .door {
+    width: auto;
+    height: 250px;
+  }
+  .slideshow-container {
+    
+    width: 99vw;
+    height: 60vh;
+    
   }
 }
 
